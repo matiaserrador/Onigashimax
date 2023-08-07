@@ -11,9 +11,9 @@ namespace BaseDeDatos.Entidades
     public class Series
     {
         [Key]
-        public int IdSerie { get; set; } //IDSERIE 1
-        public string NombreSerie { get; set; } //DB
-        public int AñoCreacion { get; set; } //1986
+        public int IdSerie { get; set; } //IDSERIE 1, 2 , 3 
+        public string NombreSerie { get; set; } //DB, One Piece, Naruto
+        public int AñoCreacion { get; set; } //1984, 1997, 1999 
 
         [ForeignKey("IdPersonaje")]
         public Personajes Personaje { get; set; }

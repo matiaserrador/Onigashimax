@@ -5,12 +5,10 @@ namespace BaseDeDatos.Entidades
     public class Personajes
     {
         [Key]
-        public int IdPersonajes { get; set; } //IDPERSONAJE 1
-        public string NombrePJ { get; set; } // Gokú
-        public int Edad { get; set; } // 35
-        public bool Masculino { get; set; } //Si
-        public bool Femenino { get; set; }//No
-
-      
+        public int IdPersonajes { get; set; } //IDPERSONAJE 1, 2, 3 etc
+        public string NombrePJ { get; set; } // Gokú , Luffy, Naruto, etc
+        public int Edad { get; set; } // 35, 17, 30, etc
+        public bool Masculino { get; set; } //Si, si, si
+        public bool Femenino { get; set; }//No, no, no
     }
 }
