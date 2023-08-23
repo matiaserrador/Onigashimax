@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BaseDeDatos.Entidades
 {
-    public class Series
+    public class Serie
     {
         [Key]
         public int IdSerie { get; set; } //IDSERIE 1, 2 , 3 
@@ -16,6 +16,6 @@ namespace BaseDeDatos.Entidades
         public int AñoCreacion { get; set; } //1984, 1997, 1999 
 
         [ForeignKey("IdPersonaje")]
-        public Personajes Personaje { get; set; }
+        public Personaje personajes {get; set;}
     }
 }
